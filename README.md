@@ -8,7 +8,7 @@ We present a modular framework that improves predictive modeling by refining pat
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 code/
@@ -80,7 +80,7 @@ These figures are referenced in the main paper and supplement.
 
 ---
 
-## 📜 License
+## License
 
 This code is released for academic use only under a custom research license.  
 Please cite the paper if used and contact the authors for commercial use.
