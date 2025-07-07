@@ -72,6 +72,14 @@ All evaluation metrics (Accuracy, F1, Recall, etc.) and per-version scores are p
 
 ---
 
+## 🖼️ Figures
+
+We include all main and supplementary figures used in the paper in the `figures/` folder for reference.
+
+These figures are referenced in the main paper and supplement.
+
+---
+
 ## 📜 License
 
 This code is released for academic use only under a custom research license.  
