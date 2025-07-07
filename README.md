@@ -25,18 +25,18 @@ _results/
 
 ---
 
-## 📌 Dataset: MIMIC-IV
+## Dataset: MIMIC-IV
 
 This project uses the publicly available [MIMIC-IV](https://physionet.org/content/mimiciv/2.2/) database from PhysioNet.
 
-> ⚠️ Due to data use agreements, we do not include raw MIMIC-IV files in this repository.  
+> ⚠Due to data use agreements, we do not include raw MIMIC-IV files in this repository.  
 > Please obtain access via PhysioNet and prepare the following:
 - `labevents.csv`: laboratory events (including creatinine, ItemID 50912)
 - `mimc_organize.csv`: organized admissions file with `subject_id` and `admittime`
 
 ---
 
-## ⚙️ Dependencies
+## ⚙Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -50,7 +50,7 @@ Key packages:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 **Main pipeline (training + SHAP experiments):**
 ```bash
@@ -64,15 +64,15 @@ python code/pca_analysis.py
 
 ---
 
-## 📊 Supplementary Materials
+## Supplementary Materials
 
 All evaluation metrics (Accuracy, F1, Recall, etc.) and per-version scores are provided in:
 
-📄 [`supplement/data-centric-cohort-refinement_supplemental.pdf`](./supplement/data-centric-cohort-refinement_supplemental.pdf)
+[`supplement/data-centric-cohort-refinement_supplemental.pdf`](./supplement/data-centric-cohort-refinement_supplemental.pdf)
 
 ---
 
-## 🖼️ Figures
+## Figures
 
 We include all main and supplementary figures used in the paper in the `figures/` folder for reference.
 
